@@ -19,3 +19,11 @@ function table_3() {
     table1.style.display = 'none';
     table2.style.display = 'none';
 }
+
+let testElement = document.querySelector('td');
+
+function signal() {
+    console.log('Ok')
+}
+
+testElement.addEventListener('click', signal);
