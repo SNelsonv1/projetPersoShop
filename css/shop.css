@@ -1,0 +1,16 @@
+td:hover {
+    border: 1px solid #8c86e2;
+}
+
+table {
+    overflow: scroll;
+}
+
+td {
+    border: 1px solid #333;
+    height: 80px;
+}
+
+body .card_right {
+    overflow: scroll;
+}
