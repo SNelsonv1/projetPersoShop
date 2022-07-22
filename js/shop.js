@@ -27,10 +27,15 @@ function table_3() {
 autre.addEventListener('click', table_3);
 
 
-let testElement = document.getElementsByTagName('td');
-function signal() {
-    console.log('Ok')
-}
-for (let i = 0; i < testElement.length; i++) {
-    testElement[i].addEventListener('click', signal);
+let cellule = document.getElementsByTagName('td');
+let panier = document.querySelector('.panier');
+
+
+
+for (let i = 0; i < cellule.length; i++) {
+    function ajoutPanier() {
+        panier.append(cellule[i]);
+        console.log('Ok')
+    }
+    cellule[i].addEventListener('click', ajoutPanier);
 }
