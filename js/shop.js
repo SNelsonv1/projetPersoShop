@@ -30,11 +30,6 @@ autre.addEventListener('click', table_3);
 let cellule = document.getElementsByTagName('td');
 let panier = document.querySelector('.panier');
 
-<<<<<<< Updated upstream
-
-
-=======
->>>>>>> Stashed changes
 for (let i = 0; i < cellule.length; i++) {
     function ajoutPanier() {
         panier.append(cellule[i]);
